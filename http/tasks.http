@@ -1,0 +1,11 @@
+### Invocar al servidor en mi maquina: localhost
+GET http://localhost:3000/
+
+### Crear una nueva tarea
+POST http://localhost:3000/tasks
+Content-Type: "application/json"
+
+{
+    "title": "Tarea 1",
+    "detail": "Detalle de la tarea 1"
+}
